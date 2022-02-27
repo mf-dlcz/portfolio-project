@@ -3,6 +3,9 @@
 	--heading-font: "Ubuntu Mono", monospace;
 	--default-font: "Fjalla One", sans-serif;
 }
+body {
+	background-color: #fae5d3;
+}
 
 h1 {
 	font-size: 96px;
@@ -12,13 +15,13 @@ h1 {
 h2 {
 	font-size: 64px;
 }
-.hero {
-	background-color: #a0b6d5;
-	text-align: center;
-	padding: 180px 20px;
-}
 p {
 	font-size: 16px;
+}
+.hero {
+	background-color: #fae5d3;
+	text-align: center;
+	padding: 180px 20px;
 }
 
 .hero p {
@@ -52,4 +55,9 @@ p {
 	color: var(--contact-color);
 	border: 1px solid var(--contact-color);
 	font-weight: bold;
+}
+.mainContent {
+	background-color: #fae5d3;
+	text-align: center;
+	padding: 0 20px 60px;
 }
