@@ -1,5 +1,5 @@
 :root {
-	--contact-color: wheat;
+	--contact-color: #edbb99;
 	--heading-font: "Ubuntu Mono", monospace;
 	--default-font: "Fjalla One", sans-serif;
 }
@@ -13,10 +13,13 @@ h1 {
 	font-weight: bold;
 }
 h2 {
-	font-size: 64px;
+	font-size: 60px;
+	line-height: normal;
+	font-family: var(--heading-font);
 }
 p {
 	font-size: 16px;
+	font-family: var(--default-font);
 }
 .hero {
 	background-color: #fae5d3;
@@ -41,7 +44,7 @@ p {
 .btn-contact {
 	background: var(--contact-color);
 	border-radius: 4px;
-	color: black;
+	color: white;
 	font-size: 18px;
 	line-height: 27px;
 	padding: 15px 30px;
@@ -55,6 +58,7 @@ p {
 	color: var(--contact-color);
 	border: 1px solid var(--contact-color);
 	font-weight: bold;
+	background: white;
 }
 .mainContent {
 	background-color: #fae5d3;
