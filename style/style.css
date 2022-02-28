@@ -13,7 +13,7 @@ h1 {
 	font-weight: bold;
 }
 h2 {
-	font-size: 60px;
+	font-size: 50px;
 	line-height: normal;
 	font-family: var(--heading-font);
 }
@@ -48,6 +48,7 @@ p {
 	font-size: 18px;
 	line-height: 27px;
 	padding: 15px 30px;
+	text-decoration: underline;
 }
 
 .btn-projects {
@@ -64,4 +65,28 @@ p {
 	background-color: #fae5d3;
 	text-align: center;
 	padding: 0 20px 60px;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 70px;
+	}
+	h2 {
+		font-size: 27px;
+		line-height: 1;
+	}
+	.hero,
+	.mainContent {
+		padding: 100px 0;
+	}
+	.project-description {
+		display: block;
+		display: center;
+		margin: 0 20px;
+	}
+	.project-link {
+		display: block;
+		text-align: center;
+		margin: 0 20px;
+	}
 }
