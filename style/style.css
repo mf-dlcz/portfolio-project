@@ -11,6 +11,7 @@ h1 {
 	font-size: 96px;
 	font-family: var(--heading-font);
 	font-weight: bold;
+	letter-spacing: -3px;
 }
 h2 {
 	font-size: 50px;
@@ -26,7 +27,12 @@ p {
 	text-align: center;
 	padding: 180px 20px;
 }
-
+.hero h1 {
+	font-size: 96px;
+	font-family: var(--heading-font);
+	font-weight: bold;
+	letter-spacing: -3px;
+}
 .hero p {
 	font-family: var(--default-font);
 	font-size: 36px;
@@ -40,20 +46,30 @@ p {
 	font-size: 24px;
 	line-height: 2;
 }
-.about-section {
-	padding: 160px 20px;
+.content-container {
+	padding: 160px 10px;
 }
-.about-section,
+.content,
 h1,
 h2 {
 	font-size: 64px;
 	line-height: 1;
 }
-.about-section,
+.content,
 h2 {
 	font-size: 25px;
 }
-.about-projects {
+.content,
+h3 {
+	font-size: 25px;
+	line-height: 1.5;
+	margin: 20px 0 0;
+}
+.content,
+p {
+	font-size: 14px;
+}
+.content {
 	margin: 30px;
 }
 
