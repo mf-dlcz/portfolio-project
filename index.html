@@ -38,21 +38,77 @@
 		<link rel="stylesheet" href="/style/style.css" />
 	</head>
 	<body>
+		<!--Navigation Bar-->
+		<nav
+			class="navbar navbar-expand-xl navbar-light sticky-xl-top pt-3"
+			style="background-color: #fae5d3"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="/"
+					><img
+						src="/images/logo.png"
+						class="logo"
+						alt="Home"
+						title="Maria Delacruz"
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="/"
+								title="Home"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/about.html" title="About"
+								>About</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/work.html" title="Work">Work</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/contact.html" title="Contact"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--Main Content-->
 		<div class="hero">
-			<p>Hello, I am</p>
+			<p class="pt-3 pb-3">Hello, I am</p>
 			<h1>Maria Delacruz</h1>
 			<h2 class="mb-5">Front-End Developer based in Los Angeles</h2>
 			<div>
-				<a href="#" class="btn-contact" title="Contact Me">Contact Me</a>
+				<a href="/contact.html" class="btn-contact" title="Contact Me"
+					>Contact Me</a
+				>
 			</div>
 		</div>
+		<!--Featured Projects-->
 		<div class="container">
 			<p class="text-center m-5">Featured Projects</p>
 			<div class="mainContent">
 				<div class="row pt-4">
 					<div class="col-sm-6">
 						<img
-							class="img-fluid shadow bg-body d-none d-sm-block"
+							class="img-fluid shadow bg-body d-none d-sm-block img-thumbnail"
 							src="/images/yogurtApp.png"
 							alt="Yogurt website project"
 							title="Yogurt website project"
@@ -65,7 +121,7 @@
 							yogurt goes with everything and it's so easy to make.
 						</p>
 						<a
-							href=""
+							href="/work.html"
 							class="btn btn-projects project-link"
 							title="Launch Yogurt Project"
 							>Learn More</a
@@ -80,7 +136,7 @@
 							city you are searching for.
 						</p>
 						<a
-							href=""
+							href="/work.html"
 							class="btn btn-projects project-link"
 							title="Launch Weather Application Project"
 							>Learn More</a
@@ -88,7 +144,7 @@
 					</div>
 					<div class="col-sm-6">
 						<img
-							class="img-fluid shadow bg-body d-none d-sm-block"
+							class="img-fluid shadow bg-body d-none d-sm-block img-thumbnail"
 							src="/images/weatherApp.png"
 							alt="Weather Application project"
 							title="Weather Application project"
@@ -98,7 +154,7 @@
 				<div class="row pt-4">
 					<div class="col-sm-6">
 						<img
-							class="img-fluid shadow bg-body d-none d-sm-block"
+							class="img-fluid shadow bg-body d-none d-sm-block img-thumbnail"
 							src="/images/dictionary.png"
 							alt="Dictionary Application Project"
 							title="Dictionary Application Project"
@@ -114,7 +170,7 @@
 							named Duden flows by
 						</p>
 						<a
-							href=""
+							href="/work.html"
 							class="btn btn-projects project-link"
 							title="Launch Dictionary App"
 							>Learn More</a

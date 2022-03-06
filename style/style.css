@@ -17,15 +17,26 @@ h2 {
 	font-size: 50px;
 	line-height: normal;
 	font-family: var(--heading-font);
+	letter-spacing: -1px;
 }
 p {
 	font-size: 16px;
 	font-family: var(--default-font);
 }
+.nav-link {
+	font-family: var(--default-font);
+	font-size: 20px;
+}
+.nav-item {
+	padding: 0 40px 0;
+}
+.logo {
+	max-width: 220px;
+}
 .hero {
 	background-color: #fae5d3;
 	text-align: center;
-	padding: 180px 20px;
+	padding: 80px 20px;
 }
 .hero h1 {
 	font-size: 96px;
@@ -39,7 +50,6 @@ p {
 	font-weight: bold;
 	margin: 0;
 }
-
 .hero h2 {
 	font-family: var(--default-font);
 	font-weight: normal;
@@ -47,7 +57,7 @@ p {
 	line-height: 2;
 }
 .content-container {
-	padding: 160px 10px;
+	padding: 100px 10px;
 }
 .content,
 h1,
@@ -76,11 +86,14 @@ p {
 .btn-contact {
 	background: var(--contact-color);
 	border-radius: 4px;
-	color: white;
+	color: black;
 	font-size: 18px;
 	line-height: 27px;
 	padding: 15px 30px;
-	text-decoration: underline;
+	text-decoration: none;
+}
+.btn-contact:hover {
+	color: white;
 }
 
 .btn-projects {

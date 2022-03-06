@@ -38,23 +38,111 @@
 		<link rel="stylesheet" href="/style/style.css" />
 	</head>
 	<body>
+		<!--Navigation Bar-->
+		<nav
+			class="navbar navbar-expand-xl navbar-light sticky-xl-top pt-3"
+			style="background-color: #fae5d3"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="/"
+					><img
+						src="/images/logo.png"
+						class="logo"
+						alt="Home"
+						title="Maria Delacruz"
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="/" title="Home"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/about.html" title="About"
+								>About</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/work.html" title="Work">Work</a>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								href="/contact.html"
+								title="Contact"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<div class="container content-container">
-			<div class="content">
-				<h1 class="mb-5">Lets get in touch!</h1>
-				<!--Contact Email-->
-				<h3>Email</h3>
-				<p>
-					<a href="emailto:mar23iaa@gmail.com"> mar23iaa@gmail.com </a>
-				</p>
-				<h3>LinkedIn</h3>
-				<p>
-					<a
-						href="https://www.linkedin.com/in/delacruz-maria-f/"
-						target="_blank"
-					>
-						Maria Delacruz
-					</a>
-				</p>
+			<div class="content p-5">
+				<h1 class="mb-5">Let's get in touch!</h1>
+				<div class="row">
+					<div class="col-sm-6">
+						<!--Contact Email-->
+						<h3>Email</h3>
+						<p>
+							<a href="emailto:mar23iaa@gmail.com"> mar23iaa@gmail.com </a>
+						</p>
+						<h3>LinkedIn</h3>
+						<p>
+							<a
+								href="https://www.linkedin.com/in/delacruz-maria-f/"
+								target="_blank"
+							>
+								Maria Delacruz
+							</a>
+						</p>
+					</div>
+					<div class="col-sm-6">
+						<div class="col-md-6 pb-3">
+							<input
+								type="text"
+								class="form-control"
+								placeholder="First name"
+								aria-label="First name"
+							/>
+						</div>
+						<div class="col-md-6 pb-3">
+							<input
+								type="text"
+								class="form-control"
+								placeholder="Last name"
+								aria-label="Last name"
+							/>
+						</div>
+						<div class="col-md-6 pb-3">
+							<input
+								type="email"
+								class="form-control form-control-sm"
+								id="colFormLabelSm"
+								placeholder="Email"
+							/>
+						</div>
+						<button
+							type="button"
+							class="btn btn-light active"
+							style="background-color: #edbb99"
+						>
+							Submit
+						</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
